@@ -7,14 +7,54 @@
   ],
   "cards": [
     {
-      "img": "alt",
-      "title": "Card Title",
-      "body": "Some quick example text to build on the card title and make up the bulk of the card's content."
+      "img": "src/assets/images/Google.png",
+      "title": "Gemma",
+      "body": "Gemma is a family of lightweight, state-of-the-art open models from Google, built from the same research and technology used to create the Gemini models."
     },
     {
       "img": "alt",
-      "title": "Card Title",
-      "body": "Some quick example text to build on the card title and make up the bulk of the card's content."
+      "title": "Llama 2",
+      "body": "Meta developed and publicly released the Llama 2 family of large language models (LLMs), a collection of pretrained and fine-tuned generative text models ranging in scale from 7 billion to 70 billion parameters."
+    },
+    {
+      "img": "alt",
+      "title": "BERT(Bidirectional Encoder Representations from Transformers)",
+      "body": "A groundbreaking model for natural language processing pre-training that revolutionized how machines understand human language."
+    },
+    {
+      "img": "alt",
+      "title": "Turing-NLG",
+      "body": "Named after Alan Turing, these models are designed for natural language generation and understanding, with applications in Microsoft's products and services."
+    },
+    {
+      "img": "alt",
+      "title": "Gopher",
+      "body": "A powerful LLM that showcases advancements in understanding and generating human-like text, contributing to research and application development."
+    },
+    {
+      "img": "alt",
+      "title": "Claude",
+      "body": "A conversational AI designed with safety and alignment in focus, aiming to provide reliable, helpful, and harmless interactions."
+    },
+    {
+      "img": "alt",
+      "title": "Stable Diffusion",
+      "body": "Stable Diffusion is a latent text-to-image diffusion model capable of generating photo-realistic images given any text input."
+    },
+    {
+      "img": "alt",
+      "title": "Evo-1",
+      "body": "Evo is a biological foundation model capable of long-context modeling and design.Evo uses the StripedHyena architecture to enable modeling of sequences at a single-nucleotide, byte-level resolution with near-linear scaling of compute and memory relative to context length."
+    },
+    {
+      "img": "alt",
+      "title": "Whisper",
+      "body": "Whisper is a pre-trained model for automatic speech recognition (ASR) and speech translation. Trained on 680k hours of labelled data, Whisper models demonstrate a strong ability to generalise to many datasets and domains without the need for fine-tuning."
+    },
+    {
+      "img": "alt",
+      "title": "GPT-3",
+      "body": "GPT-3 is a state-of-the-art language model that uses deep learning to produce human-like text. It takes in a prompt and generates a completion, following the pattern of the text it was trained on."
     }
   ]
 }
