@@ -17,19 +17,9 @@
       "body": "Meta developed and publicly released the Llama 2 family of large language models (LLMs), a collection of pretrained and fine-tuned generative text models ranging in scale from 7 billion to 70 billion parameters."
     },
     {
-      "img": "src/assets/images/google.png",
-      "title": "BERT(Bidirectional Encoder Representations from Transformers)",
-      "body": "A groundbreaking model for natural language processing pre-training that revolutionized how machines understand human language."
-    },
-    {
       "img": "src/assets/images/microsoft.png",
       "title": "Turing-NLG",
       "body": "Named after Alan Turing, these models are designed for natural language generation and understanding, with applications in Microsoft's products and services."
-    },
-    {
-      "img": "src/assets/images/google.png",
-      "title": "Gopher",
-      "body": "A powerful LLM that showcases advancements in understanding and generating human-like text, contributing to research and application development."
     },
     {
       "img": "src/assets/images/Antropiclogo.jpg",
@@ -37,9 +27,24 @@
       "body": "A conversational AI designed with safety and alignment in focus, aiming to provide reliable, helpful, and harmless interactions."
     },
     {
+      "img": "src/assets/images/chatgpt.png",
+      "title": "GPT-3",
+      "body": "GPT-3 is a state-of-the-art language model that uses deep learning to produce human-like text. It takes in a prompt and generates a completion, following the pattern of the text it was trained on."
+    },
+    {
+      "img": "src/assets/images/google.png",
+      "title": "BERT(Bidirectional Encoder Representations from Transformers)",
+      "body": "A groundbreaking model for natural language processing pre-training that revolutionized how machines understand human language."
+    },
+    {
       "img": "src/assets/images/runway.png",
       "title": "Stable Diffusion",
       "body": "Stable Diffusion is a latent text-to-image diffusion model capable of generating photo-realistic images given any text input."
+    },
+    {
+      "img": "src/assets/images/google.png",
+      "title": "Gopher",
+      "body": "A powerful LLM that showcases advancements in understanding and generating human-like text, contributing to research and application development."
     },
     {
       "img": "src/assets/images/Evo1.png",
@@ -50,11 +55,6 @@
       "img": "src/assets/images/wisperlogo.webp",
       "title": "Whisper",
       "body": "Whisper is a pre-trained model for automatic speech recognition (ASR) and speech translation. Trained on 680k hours of labelled data, Whisper models demonstrate a strong ability to generalise to many datasets and domains without the need for fine-tuning."
-    },
-    {
-      "img": "src/assets/images/chatgpt.png",
-      "title": "GPT-3",
-      "body": "GPT-3 is a state-of-the-art language model that uses deep learning to produce human-like text. It takes in a prompt and generates a completion, following the pattern of the text it was trained on."
     }
   ]
 }
