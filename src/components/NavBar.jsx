@@ -11,7 +11,7 @@ function NavBar() {
     <>
       <div className="pt-10 mx-auto md:px-20 md:max-w-[800px] sticky top-0">
         <div className="navbar mb-14 px-6 py-3 rounded-[45px] bg-light-blue flex flex-row justify-between mx-auto backdrop-blur-sm bg-opacity-75">
-          <Link to="/ai-insighter/" className="logo flex flex-row items-center">
+          <Link to="/" className="logo flex flex-row items-center">
             <span className="material-symbols-outlined text-dark">
               sports_soccer
             </span>
@@ -19,11 +19,9 @@ function NavBar() {
           </Link>
           <div className="nav-items flex flex-row">
             <Link
-              to="/ai-insighter/"
+              to="/"
               className={`text-dark py-1.5 px-4 font-semibold text-lg rounded-3xl bg-opacity-75 ${
-                isActive("/ai-insighter/")
-                  ? "bg-white"
-                  : "hover:bg-light focus:bg-light"
+                isActive("/") ? "bg-white" : "hover:bg-light focus:bg-light"
               }`}
             >
               Home
