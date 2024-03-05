@@ -49,27 +49,42 @@
     {
       "img": "src/assets/images/google.png",
       "title": "BERT(Bidirectional Encoder Representations from Transformers)",
-      "body": "A groundbreaking model for natural language processing pre-training that revolutionized how machines understand human language."
+      "body": "A groundbreaking model for natural language processing pre-training that revolutionized how machines understand human language.",
+      "des": "BERT (Bidirectional Encoder Representations from Transformers) is a groundbreaking model for natural language processing pre-training that revolutionized how machines understand human language. Developed by Google, BERT is designed to understand and generate human-like text across a wide range of topics, making it suitable for various natural language processing tasks. With its advanced architecture and large-scale training data, BERT is engineered to deliver high-quality outputs that closely mimic the nuances of human language.",
+      "code": "from bert import BERT\n# Initialize the model\nmodel = BERT()\n# Generate text\nprompt = 'The future of AI in healthcare: '\ngenerated_text = model.generate_text(prompt)\nprint('Generated Text:', generated_text)",
+      "usage": "BERT can be used to generate human-like text for chatbots, virtual assistants, and other conversational AI applications. BERT can be used to translate text between languages, enabling multilingual communication in various applications."
     },
     {
       "img": "src/assets/images/runway.png",
       "title": "Stable Diffusion",
-      "body": "Stable Diffusion is a latent text-to-image diffusion model capable of generating photo-realistic images given any text input."
+      "body": "Stable Diffusion is a latent text-to-image diffusion model capable of generating photo-realistic images given any text input.",
+      "des": "Stable Diffusion is a latent text-to-image diffusion model developed by Runway, capable of generating photo-realistic images given any text input. This model is designed to understand and generate human-like text across a wide range of topics, making it suitable for various natural language processing tasks. With its advanced architecture and large-scale training data, Stable Diffusion is engineered to deliver high-quality outputs that closely mimic the nuances of human language.",
+      "code": "from stable_diffusion import StableDiffusion\n# Initialize the model\nmodel = StableDiffusion()\n# Generate text\nprompt = 'The future of AI in healthcare: '\ngenerated_text = model.generate_text(prompt)\nprint('Generated Text:', generated_text)",
+      "usage": "Stable Diffusion can be used to generate human-like text for chatbots, virtual assistants, and other conversational AI applications. Stable Diffusion can be used to translate text between languages, enabling multilingual communication in various applications."
     },
     {
       "img": "src/assets/images/google.png",
       "title": "Gopher",
-      "body": "A powerful LLM that showcases advancements in understanding and generating human-like text, contributing to research and application development."
+      "body": "A powerful LLM that showcases advancements in understanding and generating human-like text, contributing to research and application development.",
+      "des": "Gopher is a powerful language model developed by Google, showcasing advancements in understanding and generating human-like text. This model is designed to understand and generate text across a wide range of topics, making it suitable for various natural language processing tasks. With its advanced architecture and large-scale training data, Gopher is engineered to deliver high-quality outputs that closely mimic the nuances of human language.",
+      "code": "from gopher import Gopher\n# Initialize the model\nmodel = Gopher()\n# Generate text\nprompt = 'The future of AI in healthcare: '\ngenerated_text = model.generate_text(prompt)\nprint('Generated Text:', generated_text)",
+      "usage": "Gopher can be used to generate human-like text for chatbots, virtual assistants, and other conversational AI applications. Gopher can be used to translate text between languages, enabling multilingual communication in various applications."
     },
     {
       "img": "src/assets/images/Evo1.png",
       "title": "Evo-1",
-      "body": "Evo is a biological foundation model capable of long-context modeling and design.Evo uses the StripedHyena architecture to enable modeling of sequences at a single-nucleotide, byte-level resolution with near-linear scaling of compute and memory relative to context length."
+      "body": "Evo is a biological foundation model capable of long-context modeling and design.Evo uses the StripedHyena architecture to enable modeling of sequences at a single-nucleotide, byte-level resolution with near-linear scaling of compute and memory relative to context length.",
+      "des": "Evo-1 is a biological foundation model developed by EvoAI, capable of long-context modeling and design. Evo-1 uses the StripedHyena architecture to enable modeling of sequences at a single-nucleotide, byte-level resolution with near-linear scaling of compute and memory relative to context length. This model is designed to understand and generate human-like text across a wide range of topics, making it suitable for various natural language processing tasks.",
+      "code": "from evo1 import Evo1\n# Initialize the model\nmodel = Evo1()\n# Generate text\nprompt = 'The future of AI in healthcare: '\ngenerated_text = model.generate_text(prompt)\nprint('Generated Text:', generated_text)",
+      "usage": "Evo-1 can be used to generate human-like text for chatbots, virtual assistants, and other conversational AI applications. Evo-1 can be used to translate text between languages, enabling multilingual communication in various applications."
     },
     {
       "img": "src/assets/images/wisperlogo.webp",
       "title": "Whisper",
-      "body": "Whisper is a pre-trained model for automatic speech recognition (ASR) and speech translation. Trained on 680k hours of labelled data, Whisper models demonstrate a strong ability to generalise to many datasets and domains without the need for fine-tuning."
+      "body": "Whisper is a pre-trained model for automatic speech recognition (ASR) and speech translation. Trained on 680k hours of labelled data, Whisper models demonstrate a strong ability to generalise to many datasets and domains without the need for fine-tuning.",
+      "des": "Whisper is a pre-trained model for automatic speech recognition (ASR) and speech translation. Trained on 680k hours of labelled data, Whisper models demonstrate a strong ability to generalise to many datasets and domains without the need for fine-tuning. This model is designed to understand and generate human-like text across a wide range of topics, making it suitable for various natural language processing tasks.",
+      "code": "from whisper import Whisper\n# Initialize the model\nmodel = Whisper()\n# Generate text\nprompt = 'The future of AI in healthcare: '\ngenerated_text = model.generate_text(prompt)\nprint('Generated Text:', generated_text)",
+      "usage": "Whisper can be used to generate human-like text for chatbots, virtual assistants, and other conversational AI applications. Whisper can be used to translate text between languages, enabling multilingual communication in various applications."
     }
   ]
 }
