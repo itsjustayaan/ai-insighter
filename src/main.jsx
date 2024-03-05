@@ -4,11 +4,14 @@ import App from "./App.jsx";
 import "material-symbols";
 import "./index.css";
 import { DataProvider } from "../context.jsx";
+import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <>
-    <DataProvider>
-      <App />
-    </DataProvider>
+    <BrowserRouter>
+      <DataProvider>
+        <App />
+      </DataProvider>
+    </BrowserRouter>
   </>
 );
