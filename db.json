@@ -9,7 +9,8 @@
     {
       "img": "src/assets/images/google.png",
       "title": "Gemma",
-      "body": "Gemma is a family of lightweight, state-of-the-art open models from Google, built from the same research and technology used to create the Gemini models."
+      "body": "Gemma is a family of lightweight, state-of-the-art open models from Google, built from the same research and technology used to create the Gemini models.",
+      "des": "\"Gemma\"\" is a family of advanced open models developed by Google, renowned for their lightweight design and cutting-edge capabilities. These models are crafted using the same pioneering research and technology employed in the creation of the Gemini models. With a focus on efficiency and performance, Gemma models are tailored to excel across a variety of tasks, offering users an array of options for implementing state-of-the-art natural language processing solutions. Whether it's text generation, language understanding, or other NLP tasks, Gemma models are engineered to deliver impressive results while maintaining accessibility and ease of use."
     },
     {
       "img": "src/assets/images/meta.png",
