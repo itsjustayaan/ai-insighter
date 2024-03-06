@@ -12,7 +12,7 @@ function HomePage() {
     <>
       <div className="contain-div box-border px-5 container mx-auto xs:max-w-[600px] sm:px-0 sm:max-w-[560px] md:px-10 md:max-w-[1440px] 2xl:max-w-[1600px]">
         <NavBar />
-        <div className="hero-sec grid lg:grid-cols-2 bg-dark-blue text-light rounded-[30px] px-24 py-14 mb-14">
+        <div className="hero-sec grid lg:grid-cols-2 bg-dark-blue text-light rounded-[30px] px-10 py-6 lg:px-24 lg:py-14 mb-14">
           <div className="title-button xl:pr-40 mb-10">
             <h1 className="text-3xl font-semibold mb-20">
               Always deliver more than expected
