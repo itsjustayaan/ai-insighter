@@ -22,7 +22,7 @@ function ExplorePage() {
         </div>
         {popularModels.length > 0 ? (
           <div>
-            <h1 className="text-2xl font-bold mb-8">Popular Models</h1>
+            <h1 className="text-2xl font-bold  mb-8">Popular Models</h1>
             <div className="contain-grid mb-14 grid lg:grid-cols-3 gap-y-12.5 gap-x-8.752">
               {popularModels.map((element, index) => (
                 <Card key={index} element={element} />
