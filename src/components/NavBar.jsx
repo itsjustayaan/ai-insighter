@@ -36,12 +36,12 @@ function NavBar() {
             >
               Explore
             </Link>
-            <Link
+            {/* <Link
               to=""
               className="text-dark py-1.5 px-4 font-semibold text-lg rounded-3xl hover:bg-light bg-opacity-75"
             >
               Projects
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
