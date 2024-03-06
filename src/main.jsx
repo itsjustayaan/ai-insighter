@@ -6,9 +6,11 @@ import "./index.css";
 import { DataProvider } from "../context.jsx";
 import { BrowserRouter } from "react-router-dom";
 
+const base = process.env.NODE_ENV === "production" ? "/ai-insighter/" : "/";
+
 ReactDOM.createRoot(document.getElementById("root")).render(
   <>
-    <BrowserRouter>
+    <BrowserRouter basename={base}>
       <DataProvider>
         <App />
       </DataProvider>
