@@ -29,7 +29,6 @@ function ExplorePage() {
   const handleSubmit = (event) => {
     event.preventDefault();
     const newModel = {
-      // Construct new model from form inputs, e.g.,:
       img: "./dummy.png ",
       title: event.target.title.value,
       body: event.target.body.value,
@@ -38,7 +37,7 @@ function ExplorePage() {
     };
     console.log(newModel);
     addModel(newModel);
-    setModalOpen(false); // Close the modal
+    setModalOpen(false);
   };
 
   return (
