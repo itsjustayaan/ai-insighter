@@ -37,12 +37,8 @@ function NavBar() {
               Explore
             </Link>
             <Link
-              to="/projects"
-              className={`text-dark py-1.5 px-4 font-semibold text-lg rounded-3xl bg-opacity-75 ${
-                isActive("/projects")
-                  ? "bg-white"
-                  : "hover:bg-light focus:bg-light"
-              }`}
+              to=""
+              className="text-dark py-1.5 px-4 font-semibold text-lg rounded-3xl hover:bg-light bg-opacity-75"
             >
               Projects
             </Link>
