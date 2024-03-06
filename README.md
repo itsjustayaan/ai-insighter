@@ -46,8 +46,8 @@ Metrics:
 - **Cumulative Layout Shift**: 0
 - **Speed Index**: 1.7 s
 
-The metrics were calculated by using google chrome lighthouse tool.
+The metrics were calculated by using google chrome _lighthouse tool_.
 
 The page has a performance score of 92, accessibility score of 100, best practices score of 96, and SEO score of 90.
 
-No optimization tool was used to reduce the load time as these scores were pretty good in itself.
+_**No optimization tool was used to reduce the load time as these scores were pretty good in itself**_.
