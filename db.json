@@ -7,15 +7,16 @@
   ],
   "cards": [
     {
-      "img": "public/google.png",
+      "img": "./google.png",
       "title": "Gemma",
       "body": "Gemma is a family of lightweight, state-of-the-art open models from Google, built from the same research and technology used to create the Gemini models.",
       "des": "\"Gemma\" is a family of advanced open models developed by Google, renowned for their lightweight design and cutting-edge capabilities. These models are crafted using the same pioneering research and technology employed in the creation of the Gemini models. With a focus on efficiency and performance, Gemma models are tailored to excel across a variety of tasks, offering users an array of options for implementing state-of-the-art natural language processing solutions. Whether it's text generation, language understanding, or other NLP tasks, Gemma models are engineered to deliver impressive results while maintaining accessibility and ease of use.",
       "code": "from gemma_api import GemmaClient\n# Initialize the client with your API key\ngemma = GemmaClient(api_key='your_api_key_here')\\n# Prepare your dataset\ndata = {\n  \"features\": [\"feature1\", \"feature2\", \"feature3\"],\n  \"values\": [5.2, 3.8, 6.4]\n}\n# Make a prediction\nprediction = gemma.predict(data)\nprint(f\"Prediction: {prediction}\")",
-      "usage": "Gemma can analyze market trends and financial data to predict stock movements, helping investment firms make informed decisions.\nBy processing patient data, Gemma assists healthcare providers in diagnosing diseases early and accurately, improving patient outcomes."
+      "usage": "Gemma can analyze market trends and financial data to predict stock movements, helping investment firms make informed decisions.\nBy processing patient data, Gemma assists healthcare providers in diagnosing diseases early and accurately, improving patient outcomes.",
+      "popular": "true"
     },
     {
-      "img": "public/meta.png",
+      "img": "./meta.png",
       "title": "Llama 2",
       "body": "Meta developed and publicly released the Llama 2 family of large language models (LLMs), a collection of pretrained and fine-tuned generative text models ranging in scale from 7 billion to 70 billion parameters.",
       "des": "Llama 2 is the latest iteration in the Llama series of language models, developed by AI Innovations Inc. Building on the success of its predecessor, Llama 2 incorporates advanced deep learning techniques to understand and generate human-like text with unprecedented accuracy. This model is capable of performing a wide range of natural language processing tasks, including but not limited to text generation, translation, and sentiment analysis. With its state-of-the-art architecture, Llama 2 is designed to deliver high-quality outputs that closely mimic the nuances of human language.",
@@ -23,7 +24,7 @@
       "usage": "Llama 2 can be used to generate human-like text for chatbots, virtual assistants, and other conversational AI applications. Llama 2 can be used to translate text between languages, enabling multilingual communication in various applications."
     },
     {
-      "img": "public/microsoft.png",
+      "img": "./microsoft.png",
       "title": "Turing-NLG",
       "body": "Named after Alan Turing, these models are designed for natural language generation and understanding, with applications in Microsoft's products and services.",
       "des": "Turing-NLG is a revolutionary natural language generation model developed by Quantum AI Labs. It represents a significant leap forward in the field of AI, with its ability to understand and generate human-like text across a vast array of topics and genres. Turing-NLG's deep learning algorithms enable it to perform complex language tasks with remarkable coherence and creativity, setting a new standard for machine-generated text.",
@@ -31,7 +32,7 @@
       "usage": "Turing-NLG can be used to generate human-like text for chatbots, virtual assistants, and other conversational AI applications. Turing-NLG can be used to translate text between languages, enabling multilingual communication in various applications."
     },
     {
-      "img": "public/Antropiclogo.jpg",
+      "img": "./Antropiclogo.jpg",
       "title": "Claude",
       "body": "A conversational AI designed with safety and alignment in focus, aiming to provide reliable, helpful, and harmless interactions.",
       "des": "Claude is a conversational AI model developed by Antropic, designed to provide reliable, helpful, and harmless interactions. With a focus on safety and alignment, Claude is engineered to ensure that its interactions are beneficial and non-harmful to users. This model is capable of understanding and generating human-like text across a wide range of topics, making it suitable for various conversational AI applications.",
@@ -39,15 +40,16 @@
       "usage": "Claude can be used to generate human-like text for chatbots, virtual assistants, and other conversational AI applications. Claude can be used to translate text between languages, enabling multilingual communication in various applications."
     },
     {
-      "img": "public/chatgpt.png",
+      "img": "./chatgpt.png",
       "title": "GPT-3",
       "body": "GPT-3 is a state-of-the-art language model that uses deep learning to produce human-like text. It takes in a prompt and generates a completion, following the pattern of the text it was trained on.",
       "des": "GPT-3 is a state-of-the-art language model developed by OpenAI, renowned for its ability to generate human-like text using deep learning techniques. This model is capable of understanding and generating text across a wide range of topics, making it suitable for various natural language processing tasks. With its advanced architecture and large-scale training data, GPT-3 is designed to deliver high-quality outputs that closely mimic the nuances of human language.",
       "code": "from gpt3 import GPT3\n# Initialize the model\nmodel = GPT3()\n# Generate text\nprompt = 'The future of AI in healthcare: '\ngenerated_text = model.generate_text(prompt)\nprint('Generated Text:', generated_text)",
-      "usage": "GPT-3 can be used to generate human-like text for chatbots, virtual assistants, and other conversational AI applications. GPT-3 can be used to translate text between languages, enabling multilingual communication in various applications."
+      "usage": "GPT-3 can be used to generate human-like text for chatbots, virtual assistants, and other conversational AI applications. GPT-3 can be used to translate text between languages, enabling multilingual communication in various applications.",
+      "popular": "true"
     },
     {
-      "img": "public/google.png",
+      "img": "./google.png",
       "title": "BERT(Bidirectional Encoder Representations from Transformers)",
       "body": "A groundbreaking model for natural language processing pre-training that revolutionized how machines understand human language.",
       "des": "BERT (Bidirectional Encoder Representations from Transformers) is a groundbreaking model for natural language processing pre-training that revolutionized how machines understand human language. Developed by Google, BERT is designed to understand and generate human-like text across a wide range of topics, making it suitable for various natural language processing tasks. With its advanced architecture and large-scale training data, BERT is engineered to deliver high-quality outputs that closely mimic the nuances of human language.",
@@ -55,7 +57,7 @@
       "usage": "BERT can be used to generate human-like text for chatbots, virtual assistants, and other conversational AI applications. BERT can be used to translate text between languages, enabling multilingual communication in various applications."
     },
     {
-      "img": "public/runway.png",
+      "img": "./runway.png",
       "title": "Stable Diffusion",
       "body": "Stable Diffusion is a latent text-to-image diffusion model capable of generating photo-realistic images given any text input.",
       "des": "Stable Diffusion is a latent text-to-image diffusion model developed by Runway, capable of generating photo-realistic images given any text input. This model is designed to understand and generate human-like text across a wide range of topics, making it suitable for various natural language processing tasks. With its advanced architecture and large-scale training data, Stable Diffusion is engineered to deliver high-quality outputs that closely mimic the nuances of human language.",
@@ -63,7 +65,7 @@
       "usage": "Stable Diffusion can be used to generate human-like text for chatbots, virtual assistants, and other conversational AI applications. Stable Diffusion can be used to translate text between languages, enabling multilingual communication in various applications."
     },
     {
-      "img": "public/google.png",
+      "img": "./google.png",
       "title": "Gopher",
       "body": "A powerful LLM that showcases advancements in understanding and generating human-like text, contributing to research and application development.",
       "des": "Gopher is a powerful language model developed by Google, showcasing advancements in understanding and generating human-like text. This model is designed to understand and generate text across a wide range of topics, making it suitable for various natural language processing tasks. With its advanced architecture and large-scale training data, Gopher is engineered to deliver high-quality outputs that closely mimic the nuances of human language.",
@@ -71,15 +73,16 @@
       "usage": "Gopher can be used to generate human-like text for chatbots, virtual assistants, and other conversational AI applications. Gopher can be used to translate text between languages, enabling multilingual communication in various applications."
     },
     {
-      "img": "public/Evo1.png",
+      "img": "./Evo1.png",
       "title": "Evo-1",
       "body": "Evo is a biological foundation model capable of long-context modeling and design.Evo uses the StripedHyena architecture to enable modeling of sequences at a single-nucleotide, byte-level resolution with near-linear scaling of compute and memory relative to context length.",
       "des": "Evo-1 is a biological foundation model developed by EvoAI, capable of long-context modeling and design. Evo-1 uses the StripedHyena architecture to enable modeling of sequences at a single-nucleotide, byte-level resolution with near-linear scaling of compute and memory relative to context length. This model is designed to understand and generate human-like text across a wide range of topics, making it suitable for various natural language processing tasks.",
       "code": "from evo1 import Evo1\n# Initialize the model\nmodel = Evo1()\n# Generate text\nprompt = 'The future of AI in healthcare: '\ngenerated_text = model.generate_text(prompt)\nprint('Generated Text:', generated_text)",
-      "usage": "Evo-1 can be used to generate human-like text for chatbots, virtual assistants, and other conversational AI applications. Evo-1 can be used to translate text between languages, enabling multilingual communication in various applications."
+      "usage": "Evo-1 can be used to generate human-like text for chatbots, virtual assistants, and other conversational AI applications. Evo-1 can be used to translate text between languages, enabling multilingual communication in various applications.",
+      "popular": "true"
     },
     {
-      "img": "public/wisperlogo.webp",
+      "img": "./wisperlogo.webp",
       "title": "Whisper",
       "body": "Whisper is a pre-trained model for automatic speech recognition (ASR) and speech translation. Trained on 680k hours of labelled data, Whisper models demonstrate a strong ability to generalise to many datasets and domains without the need for fine-tuning.",
       "des": "Whisper is a pre-trained model for automatic speech recognition (ASR) and speech translation. Trained on 680k hours of labelled data, Whisper models demonstrate a strong ability to generalise to many datasets and domains without the need for fine-tuning. This model is designed to understand and generate human-like text across a wide range of topics, making it suitable for various natural language processing tasks.",

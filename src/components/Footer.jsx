@@ -24,7 +24,7 @@ function Footer() {
               <div className="flex justify-center items-center ">
                 <a href="https://github.com/itsjustayaan/ai-insighter">
                   <img
-                    src="public\github-mark-white.png"
+                    src="./github-mark-white.png"
                     alt="github"
                     className="w-10 h-10"
                   />
