@@ -72,10 +72,11 @@ function ExplorePage() {
 
       <Modal isOpen={isModalOpen} onClose={() => setModalOpen(false)}>
         <form onSubmit={handleSubmit} className="space-y-4">
+          <h1 className="text-base font-medium text-dark">About Model</h1>
           <div>
             <label
               htmlFor="title"
-              className="block text-sm font-medium text-gray-700"
+              className="text-sm font-medium text-gray-700"
             >
               Title
             </label>
@@ -84,38 +85,32 @@ function ExplorePage() {
               name="title"
               id="title"
               required
-              className="mt-1 block w-full border border-gray-300 p-2 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
+              className="mt-1 w-full border border-gray-300 p-2 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
             />
           </div>
 
           <div>
-            <label
-              htmlFor="body"
-              className="block text-sm font-medium text-gray-700"
-            >
+            <label htmlFor="body" className="text-sm font-medium text-gray-700">
               Body
             </label>
             <textarea
               name="body"
               id="body"
               required
-              className="mt-1 block w-full border border-gray-300 p-2 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
+              className="mt-1 w-full border border-gray-300 p-2 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
               rows="3"
             ></textarea>
           </div>
 
           <div>
-            <label
-              htmlFor="des"
-              className="block text-sm font-medium text-gray-700"
-            >
+            <label htmlFor="des" className="text-sm font-medium text-gray-700">
               Description
             </label>
             <textarea
               name="des"
               id="des"
               required
-              className="mt-1 block w-full border border-gray-300 p-2 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
+              className="mt-1 w-full border border-gray-300 p-2 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
               rows="4"
             ></textarea>
           </div>
@@ -123,7 +118,7 @@ function ExplorePage() {
           <div>
             <label
               htmlFor="useCases"
-              className="block text-sm font-medium text-gray-700"
+              className=" text-sm font-medium text-gray-700"
             >
               Use Cases
             </label>
@@ -131,7 +126,7 @@ function ExplorePage() {
               name="useCases"
               id="useCases"
               required
-              className="mt-1 block w-full border border-gray-300 p-2 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
+              className="mt-1 w-full border border-gray-300 p-2 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
               rows="3"
             ></textarea>
           </div>
