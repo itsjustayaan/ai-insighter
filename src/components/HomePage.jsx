@@ -30,7 +30,7 @@ function HomePage() {
             </div>
             <div>
               <h2 className="hero-card-title font-semibold text-lg mb-2">
-                Some Title
+                Gemma
               </h2>
               <p className="hero-card-body font-light text-base ">
                 Gemma is a family of lightweight, state-of-the-art open models
