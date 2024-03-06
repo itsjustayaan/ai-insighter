@@ -26,7 +26,7 @@ function HomePage() {
           </div>
           <div className="hero-img-text grid lg:grid-cols-2 bg-dark rounded-[20px] lg:place-content-center p-10">
             <div className="lg:flex justify-center">
-              <img src="./google.png" alt="Ooops" />
+              <img src="./google.webp" alt="Ooops" />
             </div>
             <div>
               <h2 className="hero-card-title font-semibold text-lg mb-2">

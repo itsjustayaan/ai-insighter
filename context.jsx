@@ -38,8 +38,14 @@ const DataProvider = ({ children }) => {
     setSearchQuery(e.target.value);
   };
 
+  const addModel = (newModel) => {
+    setData((prevData) => ({ cards: [...prevData.cards, newModel] }));
+  };
+
   return (
-    <DataContext.Provider value={{ data: filteredData, handleSearch }}>
+    <DataContext.Provider
+      value={{ data: filteredData, handleSearch, addModel }}
+    >
       {children}
     </DataContext.Provider>
   );

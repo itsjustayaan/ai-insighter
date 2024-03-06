@@ -39,8 +39,14 @@ function Card({ element }) {
         </div>
         <h3 className="font-semibold text-lg mb-2">{element.title}</h3>
         <p className="font-light text-base mb-2">{element.des}</p>
-        <h3 className="font-semibold text-lg mb-2">Code Snippet:</h3>
-        <CodeSnippet code={element.code} language={"python"} />
+        {element.code ? (
+          <>
+            <h3 className="font-semibold text-lg mb-2">Code Snippet:</h3>
+            <CodeSnippet code={element.code} language={"python"} />
+          </>
+        ) : (
+          <></>
+        )}
         <h3 className="font-semibold text-lg my-2">Use Cases:</h3>
         <p>{element.usage}</p>
       </Modal>
