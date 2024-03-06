@@ -10,7 +10,7 @@ const DataProvider = ({ children }) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("https://katb.in/lohatepujod/raw");
+        const response = await fetch("https://katb.in/onoxiroreyo/raw");
         if (response.ok) {
           const json = await response.json();
           setData(json);
